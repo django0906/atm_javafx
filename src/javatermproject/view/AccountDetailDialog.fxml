@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="205.0" prefWidth="150.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javatermproject.view.AccountDetailController">
+   <children>
+      <Label fx:id="LoggedInUserName" layoutX="14.0" layoutY="15.0" />
+      <Label layoutX="52.0" layoutY="15.0" text="님, 반갑습니다." />
+      <Button fx:id="DepositBtn" layoutX="55.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#handleDepositBtn" text="입금" />
+      <Button fx:id="WithdrawalBtn" layoutX="55.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#handleWithdrawalBtn" text="출금" />
+      <Button fx:id="TransferBtn" layoutX="55.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#handleTransferBtn" text="송금" />
+      <Button fx:id="InquiryBtn" layoutX="55.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#handleInquiryBtn" text="조회" />
+      <Button fx:id="LogoutBtn" layoutX="55.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#handleLogoutBtn" text="종료" />
+   </children>
+</AnchorPane>
